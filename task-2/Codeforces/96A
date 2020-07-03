@@ -1,0 +1,9 @@
+    #include<stdio.h>
+    #include<string.h>
+    int main()
+    {
+        char b[100];
+        gets(b);
+        printf(strstr(b,"1111111")||strstr(b,"0000000")?"YES":"NO");
+        return 0;
+    }
